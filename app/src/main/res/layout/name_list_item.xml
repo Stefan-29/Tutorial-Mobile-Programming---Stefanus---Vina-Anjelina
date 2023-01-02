@@ -1,0 +1,28 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="name"
+            type="String" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/name_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation">
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={name}"
+            android:textSize="16sp"
+            android:textColor="@color/purple_200"
+            android:padding="8dp"
+            />
+    </com.google.android.material.card.MaterialCardView>
+</layout>
