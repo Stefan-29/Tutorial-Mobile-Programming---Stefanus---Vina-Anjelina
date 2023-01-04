@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FirebaseGoogle</string>
+    <string name="err_empty_email">Fill Your Email</string>
+    <string name="err_empty_pass">Fill Password</string>
+    <string name="err_invalid_login">"Invalid Login "</string>
+</resources>
